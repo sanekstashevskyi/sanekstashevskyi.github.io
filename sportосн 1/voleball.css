@@ -1,0 +1,95 @@
+body{
+	margin: 0px;
+	padding: 0px;	
+	background: url(https://previews.123rf.com/images/mainfu/mainfu1708/mainfu170800144/84260334-tennis-net-seamless-pattern-vector-illustration.jpg)fixed;background-size: 30%;
+}
+#header{background: url(https://www.capitolpresence.com/wp-content/uploads/2018/12/sky-clipart-banner-7.jpg)no-repeat;  background-position: bottom;
+	width: auto;
+	height: 400px;
+	background-position: center;
+	margin: 0px; size: 200%;
+
+}
+#buttons{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+		display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	height: auto;
+	position: static;
+	top: 430px;
+	display: flex;
+	justify-content: space-around;}
+button{
+	border-radius: 10px;
+	height: 90px;
+	width: 230px;
+	cursor: pointer;}
+button:hover{
+	width: 240px;
+	height: 95px;
+	box-shadow: 0px 0px 1px black, 0 0 1em yellow;
+	transition: .8s;
+	background-color: #ff9900;}
+button:active{
+	color-interpolation: :#ffff33;}
+#content{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding:5%;
+	background: white;
+	width: 70%;
+	height: auto;
+	position: static;
+	box-shadow: -1px -1px 30px 0px #000000c7;}
+li{
+font-size: 110%;
+font-family:  Comic Sans MS, Comic Sans, cursive;
+	}
+p{
+	text-align: center;
+	text-indent: 20px;
+	font-size: 110%;
+	font-family:  Comic Sans MS, Comic Sans, cursive; }
+h1{
+	font-family: 'Marmelad', sans-serif;
+	    color: gold;
+    text-shadow: 1px 1px 2px black, 0 0 1em yellow;}
+h2{
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	text-indent: 40px;
+	font-size: 30px;
+	font-style: serif;
+	    color: gold;
+    text-shadow: 1px 1px 2px black, 0 0 1em yellow;}
+img{
+	position: relative;
+	box-shadow: 0 0 5px 0px black;
+    margin: 10px;
+}
+#footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color: #202121;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding-top: 110px;
+	padding-bottom: 40px;
+}
+.footer1{ 
+	position: relative;
+	max-width: 33%;
+	color:white;
+	border: 3px;
+	border-color: white;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+h3{font-size: 24px;}

@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyWfNVau2_1Bf9DUy1a_T5C7gpqJ-7Se5ZfNciXL3McUEvZGnUFQ) fixed;
+}
+
+#header{
+	margin: 0px;
+	background: url(https://previews.123rf.com/images/vaskinamat/vaskinamat1702/vaskinamat170200022/72494424-sport-banner-facebook-cover-set-of-sport-balls-and-gaming-items-at-a-blue-background-corporate-faceb.jpg)no-repeat;background-position: center; 
+	max-width: 100%;
+	height: 400px;
+	position: static;
+    top: 0px;
+    box-sizing: border-box;}
+#content{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding:5%;
+	background: white;
+	width: 65%;
+	height: auto;
+	position: static;
+	box-shadow: -1px -1px 30px 0px #000000c7;}
+p{
+	text-align: center;
+	text-indent: 20px;
+	font-size: 110%;
+	font-family:  Comic Sans MS, Comic Sans, cursive; }
+h1{
+	font-family: 'Marmelad', sans-serif;
+	margin: 30px; 
+	color: #3399ff;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue;}
+h2{
+	text-indent: 40px;
+	font-size: 30px;
+	font-style: serif;
+	color: #336699;
+	text-shadow: 0px 0px 1px black, 0 0 1em blue;}
+img{
+	position: relative;
+	box-shadow: 0 0 5px 0px black;
+    margin: 10px;
+}
+#buttons{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+		display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	height: auto;
+	position: static;
+	top: 430px;
+	display: flex;
+	justify-content: space-around;
+}
+button{
+	border-radius: 10px;
+	height: 90px;
+	width: 230px;
+	cursor: pointer;}
+button:hover{
+	width: 240px;
+	height: 100px;
+	box-shadow: 0px 0px 1px black, 0 0 1em blue;;
+	transition: .8s;
+	background-color: #ff9900;}
+button:active{
+	color-interpolation: :#ffff33;}
+#footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color: #202121;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding-top: 110px;
+	padding-bottom: 40px;
+}
+.footer1{ 
+	position: relative;
+	max-width: 33%;
+	color:white;
+	border: 3px;
+	border-color: white;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+h3{font-size: 24px;}
